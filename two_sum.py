@@ -10,7 +10,7 @@ def twoSum(numbers, target):
     while p1 < p2:
         s = numbers[p1] + numbers[p2]
         if s == target:
-            return [numbers[p1], numbers[p2]], [p1, p2]
+            return [numbers[p1], numbers[p2]]
         elif s > target:
             p2 = p2 - 1
         else:
